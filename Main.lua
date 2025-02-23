@@ -140,7 +140,7 @@ local function CreateMainUI()
         end,
     })
 
-    UISettings:Keybind({
+    AutoTrain:Keybind({
         Label = "Auto Train Toggle",
         Value = Enum.KeyCode.X,
         Callback = function()
